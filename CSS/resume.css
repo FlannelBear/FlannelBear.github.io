@@ -1,0 +1,96 @@
+html {
+    background-color: lightgray;
+}
+header {
+    font-family: georgia, monospace, sans-serif;
+    color: white;
+    background-color: slategrey
+}
+footer {
+    background-color:lightsteelblue;
+    margin: 25px 0px 15px 0px;
+    border-radius: 5px;
+}
+.categories h3{
+    border-top: 1px solid black;
+    background-color: slategray;
+    border-radius: 5px;
+    color: white;
+    margin: 25px 0px 10px 0px;
+    text-indent: 5px;
+}
+.row {
+    margin: 0px;
+    padding-left: 5px;
+}
+.round-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.round-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.location {
+    font-style: italic;
+    font-weight: bold;
+}
+.btn {
+    background-color: lightsteelblue;
+    position: relative;
+}
+.btn:active {
+    top: 1px;
+}
+#jumbotron {
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    margin: 25px 0px 0px 0px;
+}
+#portrait {
+    justify-content:center;
+    border: solid;
+    border-color: darkslategray;
+    border-width: 5px;
+    border-radius: 10px;
+    border-top: 5px;
+    border-right: 5px;
+    padding: 0px;
+    resize: both;
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+#intro {
+    font-size: 2rem;
+}
+#info {
+    background-color: antiquewhite;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#position {
+    font-weight: bold;
+}
+#descript {
+    font-size: 10px;
+    font-style:oblique;
+    font-family: sans-serif, monospace;
+}
+#contact-me {
+    position: relative;
+    bottom: 10px;
+    width: 170px;
+    margin-left: 10px;
+}
+#contact-text {
+    color: black;
+}
+#button {
+    resize: both;
+    width: 50px;
+    height: auto;
+    background-color:white;
+    margin: 10px;
+    align-content: center;
+}
